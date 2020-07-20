@@ -1,0 +1,35 @@
+Git --version	//查询 版本号
+设置个人信息
+输入姓名： git config --global user.name "Xiets"
+输入个人emall： git config --global uer.emall "1024425036@qq.com"
+查询git设置的内容 git config --list
+
+初始化git
+1.cd 到目标文件夹
+2.git init 	//新增数据库，初始化管理。 当前文件夹中出现.git文件夹 说明成功！隐藏的，打开显示隐藏的文件 command+shift+.
+Git基本提交操作
+3.git status	//查看状态 是否有更新，改变。
+4.git add .	//将文件放入到 索引区（待提交本地区域）
+5.git commit -m "修改描述"	//提交描述  （到了本地数据库了）
+6.git log	//查看更新日记	回到窗口 输入小写 q
+推到github上
+7.在github 中新建资料库，绑定本地库的两种方式
+
+
+
+SourceTree	git图形化
+
+
+
+终端 常用指令
+	Windows		MacOS/Linux	说明
+1	cd		cd		前往文件夹
+2	cd		pwa		取得目前所在的位置
+3 	dir		ls		显示文件夹中的文档
+4	mkdir		mkdir		新增文件夹
+5	/		touch		开新文档
+6	copy		cp		复制文档
+7	move		mv		移动文档
+8	del		rm		删除文档
+9	cls		clear		清除书面上的内容
+10	open		open		打开文档
